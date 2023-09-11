@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AP INSTALLMENT</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#plans">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="images/product_image.png" alt="Product Image">
+        </div>
+        <div class="hero-content">
+            <h2>Discover Our Amazing Product</h2>
+            <p>Welcome to AP Installment, where we're dedicated to making the latest mobile technology accessible to everyone. Founded with the vision of bridging the gap between cutting-edge smartphones and your budget, we've been in the business of delivering top-quality mobile devices through easy and affordable installment plans.
+
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature">
+            <img src="images/pay.png" alt="Feature 1">
+            <h3>Flexible Payment Plans</h3>
+            <p>We offer a range of flexible payment options, allowing you to choose the plan that fits your budget, whether it's monthly, quarterly, or customized to your preferences.</p>
+        </div>
+        <div class="feature">
+            <img src="images/apple.png" alt="Feature 2">
+            <h3>Wide Selection</h3>
+            <p>Our catalog boasts a diverse selection of the latest smartphones, ensuring you have access to the device that suits your needs and desires.</p>
+        </div>
+        <div class="feature" style="margin-top: 108px;">
+            <img src="images/delivery.png" alt="Feature 3">
+            <h3>Fast Approval</h3>
+            <p>We understand the urgency of getting your hands on the device you want. That's why we offer quick and easy approval processes to get you started right away.</p>
+        </div>
+    </section>
+
+    <section class="pricing" id="plans">
+        <h2>Choose Your Plan</h2>
+        <div class="price-card ">
+            <h3>Monthly</h3>
+            <p>Pay your payment as low as $19 per month</p>
+            <span class="price">$19/month</span>
+            <a href="#" class="btn cards-btn">Get Started</a>
+        </div>
+        <div class="price-card">
+            <h3>Two Months</h3>
+            <p>Pay your payment after two months</p>
+            <span class="price">$39/month</span>
+            <a href="#" class="btn cards-btn">Get Started</a>
+        </div>
+    </section>
+ 
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to get in touch with us.</p>
+        <a href="#" class="btn">Contact Us</a>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form action="process_form.php" method="POST">
+                <!-- <label for="name">Name:</label> -->
+                <input type="text" id="name" name="name" placeholder="Name" required >
+    
+                <!-- <label for="email">Email:</label> -->
+                <input type="email" id="email" name="email" placeholder="Email" required>
+    
+                <!-- <label for="message">Message:</label> -->
+                <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 AP INSTALLMENT</p>
+    </footer>
+</body>
+</html>
